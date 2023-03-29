@@ -1,0 +1,19 @@
+.icon {
+    z-index: 9999;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+.icon :hover{
+    opacity: 1;
+}
+.icon h5{
+    color: var(--secondary-color);
+}
+.icon .close-icon {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+  
